@@ -1,90 +1,95 @@
 * {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background-color: #c18b49;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  /* background-color: #c18b49; */
+  /* background-color: #d0d3c5; */
+  background-color: #A693AF;
 }
 
 .container {
-    background-color: #d0d3c5;
-    padding: 2rem;
-    border-radius: 1rem;
-    min-height: 40vh;
-    width: 40vh;
+  background-color: #7C5E82;
+  /* background-color: #725D7C; */
+  padding: 2rem;
+  border-radius: 1rem;
+  min-height: 40vh;
+  width: 40vh;
 }
 
-form{
-    margin: 2rem 0 1rem 0;
-
-}
-
-form p{
-    margin-bottom: 0.5rem;
-}
-
-form select, input , button{
-    width: 100%;
-    border: none;
-    outline: none;
-    border-radius: 0.5rem;
-}
-
-form input{
-    border: 1px solid grey;
-    padding-left: 0.4rem;
-    height: 2rem;
-    font-size: 1rem;
-}
-
-
-.drop-down{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 2rem;
-}
-
-.drop-down i{
-    font-size: 1.5rem;
-    margin-top: 1rem;
-}
-
-.select-container img{
-    max-width: 2rem;
+form {
+  margin: 2rem 0 1rem 0;
 
 }
 
-.select-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 6rem;
-    border-radius: 0.5rem;
-    border: 1px solid gray;
+form p {
+  margin-bottom: 0.5rem;
+}
+
+form select,
+input,
+button {
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 0.5rem;
+}
+
+form input {
+  border: 1px solid grey;
+  padding-left: 0.4rem;
+  height: 2rem;
+  font-size: 1rem;
+}
+
+
+.drop-down {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.drop-down i {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.select-container img {
+  max-width: 2rem;
 
 }
 
-.select-container select{
-    font-size: 1rem;
-    margin-left: 0.31rem;
-    width: auto;
+.select-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 6rem;
+  border-radius: 0.5rem;
+  border: 1px solid gray;
+
+}
+
+.select-container select {
+  font-size: 1rem;
+  margin-left: 0.31rem;
+  width: auto;
 }
 
 
 .msg {
-    margin: 2rem 0 2rem 0;
+  margin: 2rem 0 2rem 0;
 }
 
-form button{
-    height: 3rem;
-    background-color: #667A7A;
-    color:#fff;
-    font-size: 1.16rem;
-    cursor: pointer;
+form button {
+  height: 3rem;
+  background-color: #A693AF;
+  color: #fff;
+  font-size: 1.16rem;
+  cursor: pointer;
 }
